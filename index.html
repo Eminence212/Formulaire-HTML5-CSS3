@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles/styles.css">
+    <title>Formulaire HTML CSS</title>
+</head>
+<body>
+    <form action="#" method="post">
+       <!-- Première patie-->
+        <div id="generalInformation" class="element">
+            <p class="titre text-bleu">
+                General Information
+            </p>
+
+            <p>
+                <select name="title" class="bordure bordure-grise text-gris taill-full">
+                    <option value="none" disabled selected>Title</option>
+                    <option value="Developpeur">Developpeur</option>
+                    <option value="Ingénieur Réseau">Ingénieur Réseau</option>
+                    <option value="Administrateur BD">Administrateur BD</option>
+                </select>
+            </p>
+         
+            <p id="firstLastName">
+                <input class="bordure bordure-grise text-gris firstName" placeholder="First Name" type="text" name="firstName" >
+                <input class="bordure bordure-grise text-gris lastName" placeholder="Last Name" type="text" name="lastName" >
+            </p>
+
+            <p>
+                <select name="position" class="bordure bordure-grise text-gris taill-full" >
+                    <option value="none" disabled selected>Position</option>
+                    <option value="Position 1">Position 1</option>
+                    <option value="Position 2">Position 2</option>
+                    <option value="Position 3">Position 3</option>
+                </select>
+            </p>
+            <p>
+                <input class="bordure bordure-grise text-gris taill-full" placeholder="Company" id="company" type="text" name="company" class="hauteur-moyenne largeur-full bordures bordure-grise" >
+             </p>
+
+             <p id="businessAreaEmployeees">
+                <input class="bordure bordure-grise text-gris businessArea" placeholder="Business Area"  type="text" name="businessArea"  >
+                <select class="bordure bordure-grise text-gris employees" name="employees">
+                    <option value="none" disabled selected>Employees</option>
+                    <option value="Employees 1">Employees 1</option>
+                    <option value="Employees 2">Employees 2</option>
+                    <option value="Employees 3">Employees 3</option>
+                </select>
+                
+            </p>
+        </div>
+
+ <!-- Deuxième patie-->
+        <div id="contactDetail" class="element">
+            <p class="titre text-blanc">
+                Contact Detail
+            </p>
+
+            <p>
+              <input class="taill-full bordure bordure-blanc text-blanc" placeholder="street+Nr"  type="text" name="streetNr"  >
+            </p>
+            <p>
+                <input class="taill-full bordure bordure-blanc text-blanc" placeholder="Additional Information"  type="text" name="additionalInformation" >
+             </p>
+
+             <p id="zipCodePlace">
+                <input class="zipCode bordure bordure-blanc text-blanc" placeholder="Zip Code"  type="text" name="zipCode" >
+                <select class="place bordure bordure-blanc text-blanc" name="place">
+                    <option value="none" disabled selected>Place</option>
+                    <option value="Place 1">Place 1</option>
+                    <option value="Place 2">Place 2</option>
+                    <option value="Place 3">Place 3</option>
+                </select>
+                
+            </p>
+           
+            <p>
+                <select class="bordure bordure-blanc text-blanc taill-full" name="Country" >
+                    <option value="none" disabled selected>Country</option>
+                    <option value="Country 1">Country 1</option>
+                    <option value="Country 2">Country 2</option>
+                    <option value="Country 3">Country 3</option>
+                </select>
+            </p>
+            <p id="codePhoneNumber">
+                <input class="code bordure bordure-blanc text-blanc" placeholder="code +"  type="text" name="codes" >
+                <input class="phoneNumber bordure bordure-blanc text-blanc" placeholder="Phone Number" type="tel" name="phoneNumber" >
+            </p>
+            <p>
+                <input class="taill-full bordure bordure-blanc text-blanc" placeholder="Your Email" type="email" name="email">
+             </p>
+             <br>
+             <p>
+                <input type="radio" name="termesCondition text-blanc"/>
+                <label class="text-blanc" for="termesConditions">I do accept the <a href="#">Termes and Conditions</a> <br>
+                  <span> of your site</span>
+               </label>
+             </p>
+             <br>
+             <p>
+                <button type="submit">Register Badge</button>
+             </p>
+
+        </div>
+    </form>
+</body>
+</html>
