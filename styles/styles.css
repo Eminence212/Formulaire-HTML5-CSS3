@@ -7,7 +7,7 @@ body,form{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to right,#7dc2ee, #9599e2);
+    background:linear-gradient(120deg, #8BC5EB,#9599E2) no-repeat;
 }
 form{
     width: 100vw;
@@ -25,7 +25,8 @@ form{
     border-radius: 10px 0px 0px 10px;
 }
 .element:nth-child(2){
-    background-color:#4836cf;
+    /* background-color:#4836cf; */
+    background: linear-gradient(90deg ,#4836CF, #4935D4 );
     border-radius: 0px 10px 10px 0px;
     color: white;
 }
@@ -58,7 +59,7 @@ p{
 .bordure-grise{
     border-bottom: 1px solid #e5e5e5;
     background-color:white;
-    color:#aeaeae;
+    color:#181717b9;
 }
 .bordure-blanc{
     border-bottom: 1px solid white;
@@ -67,7 +68,7 @@ p{
 }
 #generalInformation input::placeholder 
 { 
- color:#aeaeae;
+ color:#181717b9;
 }
 #contactDetail input::placeholder
 { 
